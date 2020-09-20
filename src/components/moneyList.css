@@ -1,0 +1,44 @@
+.moneyList .moneyNav,
+.moneyList .list>div {
+	display: flex;
+	text-align: center;
+	background: #BCBCBC;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.moneyList .moneyNav a {
+	color: #000;
+}
+
+.moneyList .list>div {
+	font-weight: normal;
+	background: #FFFFFF;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.moneyList .moneyNav p:nth-child(1),
+.moneyList .list>div p:nth-child(1) {
+	flex: 2;
+}
+
+.moneyList .moneyNav p:nth-child(2),
+.moneyList .list>div p:nth-child(2) {
+	flex: 4;
+}
+
+.moneyList .moneyNav p:nth-child(3),
+.moneyList .list>div p:nth-child(3) {
+	flex: 4;
+}
+
+.moneyList .moneyNav p:nth-child(4),
+.moneyList .list>div p:nth-child(4) {
+	flex: 4;
+}
+
+.moneyList .moneyNav p:nth-child(5),
+.moneyList .list>div p:nth-child(5) {
+	flex: 2;
+}

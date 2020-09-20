@@ -1,0 +1,26 @@
+.home .header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 44px 55px;
+	background-color: #E4E4E4;
+}
+
+.home .header>div{
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 22px;
+}
+.home .header>div:nth-child(2){
+	background: #D7D7D7;
+	color: #FFFFFF;
+}
+.home .header>div:nth-child(5){
+	background: #199ED8;
+	color: #FFFFFF;
+}

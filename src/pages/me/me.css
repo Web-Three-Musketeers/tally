@@ -1,0 +1,60 @@
+.me h2 {
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FFFFFF;
+	font-weight: normal;
+}
+
+.me .header {
+	height: 88px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 12px;
+	background-color: #FFFFFF;
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.me .header p {
+	flex: 1;
+	margin-left: 15px;
+}
+
+.me .header .header-left {
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.me .xiangyou {
+	width: 12px;
+	height: 20px;
+}
+
+.me .me-list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFFFF;
+	line-height: 44px;
+	padding: 0 10px;
+	margin-bottom: 2px;
+}
+
+.me .list-left{
+	width: 20px;
+	height: 20px;
+}
+
+.me .me-list img{
+	float: left;
+}
+
+.me .me-list p{
+	flex: 1;
+	margin-left: 10px;
+	font-size: 14px;
+}

@@ -1,0 +1,46 @@
+.wx{
+	background: #FFFFFF;
+	height: 100vh;
+	z-index: 999;
+	position: relative;
+}
+
+.wx img{
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.wx p{
+	font-size: 20px;
+	line-height: 50px;
+	text-indent: 22px;
+}
+
+.wx span{
+	font-size: 16px;
+	line-height: 30px;
+	display: inline-block;
+	margin: 10px 0 30px 10px;
+}
+
+.wx input{
+	width: 40%;
+	height: 30px;
+	background-color: #09C063;
+	text-align: center;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	color: #FFFFFF;
+}
+
+.wx .cancel-wx{
+	color: #09C063;
+	background-color: #F2F2F2;
+}
+
+.wx-info{
+	font-size: 30px;
+	font-weight: 700;
+}

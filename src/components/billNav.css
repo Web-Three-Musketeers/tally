@@ -1,0 +1,67 @@
+.billNav{
+	display: flex;
+	margin: 10px 0;
+}
+
+.billNav .billNav-list{
+	flex: 1;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	background-color: #FFFFFF;
+}
+
+.billNav .billNav-list+.billNav-list{
+	margin-left: 3px;
+}
+
+.billNav .billNav-list img{
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.billMain{
+	position: relative;
+}
+
+.billType{
+	position: absolute;
+	left: 0;
+	top: 42px;
+	background-color: #F2F2F2;
+	width: 100%;
+}
+.billType p{
+	background-color: #FFFFFF;
+	margin-bottom: 2px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+}
+.billList {
+	background-color: #FFFFFF;
+	padding: 10px 10px 5px;
+	margin-bottom: 2px;
+}
+
+.billList .billList-top,.billList .billList-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.billList .billList-top p,.billList .billList-bottom p{
+	flex: 1;
+}
+.billList .billList-top span{
+	font-size: 20px;
+	color: #FF0000;
+	line-height: 30px;
+	font-weight: 700;
+}
+
+.billList .billList-bottom span{
+	margin-left: 10px;
+	color: #A2A2A2;
+}

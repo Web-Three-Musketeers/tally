@@ -1,0 +1,45 @@
+.billTab {
+	display: flex;
+	background: #FFFFFF;
+	align-items: center;
+}
+
+.billTab a {
+	flex: 2;
+	margin: 0 10px;
+}
+
+.billTab a img {
+	height: 22px;
+}
+.billTab .billTab-up{
+	width: 13px;
+}
+.billTab>div {
+	flex: 20;
+}
+
+.billTab>div>div {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #199ED8;
+	width: 200px;
+	height: 40px;
+	margin: 10px auto;
+	border-radius: 5px;
+	overflow: hidden;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	color: #199ED8;
+	background-color: #199ED8;
+}
+
+.billTab>div p {
+	flex: 1;
+	background: #FFFFFF;
+}
+.billTab > div .active{
+	background-color: #199ED8;
+	color: #FFFFFF;
+}

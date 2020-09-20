@@ -1,0 +1,57 @@
+.meInfo {
+	display: flex;
+	flex-direction: column;
+}
+
+.meInfo .header {
+	display: flex;
+	background-color: #FFFFFF;
+	align-items: center;
+}
+
+.meInfo .header div {
+	width: 16px;
+	margin-left: 10px;
+}
+
+.meInfo h2 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	flex: 1;
+	line-height: 50px;
+}
+
+.meInfo .nickName {
+	display: flex;
+	background-color: #FFFFFF;
+	justify-content: space-between;
+	padding: 15px;
+	margin: 10px 0;
+}
+
+.nickName p {
+	font-size: 20px;
+	line-height: 60px;
+}
+
+.nickName div {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.meInfo-content{
+	display: flex;
+	background-color: #FFFFFF;
+	align-items: center;
+	margin-bottom: 3px;
+}
+.meInfo-content p{
+	flex: 1;
+	margin-left: 20px;
+}
+.meInfo-content div{
+	margin: 10px;
+}
